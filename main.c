@@ -9,10 +9,10 @@ int main(int argc, char *argv[]) {
 	printf("input a number : ");
 	scanf("%d, &input");
 	
-		if (input == 0)
-			printf("It is an even number. \n");
+		if (input > 0)
+			printf("It is an positive. \n");
 		else
-			printf("It is an odd number. \n");
+			printf("It is a non-positive. \n");
 	
 	return 0;
 }
