@@ -11,8 +11,10 @@ int main(int argc, char *argv[]) {
 	
 		if (input > 0)
 			printf("positive number. \n");
-		else
+		else if (input < 0)
 			printf("non-positive number. \n");
+		else
+			printf("It's 0. \n");
 	
 	return 0;
 }
